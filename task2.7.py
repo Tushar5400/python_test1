@@ -18,6 +18,6 @@ new_file_path = os.path.join(destination_folder, file_name+file_extension)
 
 #Create new file
 with open(new_file_path, "w") as file:
-    file.write("This is the new file created using python")
+    file.write("This is the new file created using python!")
     print("file created successfully at :", new_file_path)
 
